@@ -3,7 +3,7 @@
 run_analysis.R fulfills the five requirements laid out in the Week 4 assignment for the Getting and Cleaning Data Coursera course. It does so in the following fashion:
 
 <ul>
-<li>Sets up R environment with packages (reshape2, plyr) containing functions needed to conduct the analysis</li>
+<li>Sets up R environment with packages (<code>reshape2</code>, <code>plyr</code>) containing functions needed to conduct the analysis</li>
 <li>Downloads the zipped data files, unzips them, and then sets the unzipped folder as R’s working directory</li>
 <li>Prepares names for the to-be-imported files by extracting file names and paths recursively, then cleaning them so that the file names do not contain special characters</li>
 <li>Imports activity labels and variable names</li>
