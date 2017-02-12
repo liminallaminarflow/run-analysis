@@ -1,15 +1,9 @@
 <h1>Code Book for run_analysis.</h1>
 <h2>Variables</h2>
-
-<ul>
-<li>Subject: An integer between 1-30 that identifies a specific test participant</li>
-<li>Activity: A string identifying the particular motion undertaken by the subject</li>
-</ul>
-
+<ul><li>Subject: An integer between 1-30 that identifies a specific test participant</li>
+<li>Activity: A string identifying the particular motion undertaken by the subject</li></ul>
 <p>The following variables are all measurements that quantify acceleration from an accelerometer. The naming convention for these variables contains information identifying the accelerometer, the measure of aggregation used (whether mean or standard deviation), and the axis label. The observations recorded and assigned to each variable are normalized between -1 and 1.</p>
-
-<code><ul>
-<li>tBodyAcc-mean()-X</li>
+<code><ul><li>tBodyAcc-mean()-X</li>
 <li>tBodyAcc-mean()-Y</li>
 <li>tBodyAcc-mean()-Z</li>
 <li>tBodyAcc-std()-X</li>
