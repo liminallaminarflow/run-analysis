@@ -98,7 +98,7 @@
 </ul></code>
 
 <h2>Data</h2>
-<p>Raw data comes from the following study: <a href="http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones">. A zip file containing the raw data is here: <a href="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"></p>
+Raw data comes from the following study: <a href="http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones">. A zip file containing the raw data is here: <a href="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip">
 
 <h2>Required non-base R packages:</h2>
 <code><ul>
