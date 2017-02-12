@@ -1,9 +1,10 @@
-<h1>Code Book for run_analysis.</h1>
+<h1>Code Book for run_analysis.R</h1>
 <h2>Variables</h2>
 <ul><li>Subject: An integer between 1-30 that identifies a specific test participant</li>
 <li>Activity: A string identifying the particular motion undertaken by the subject</li></ul>
-<p>The following variables are all measurements that quantify acceleration from an accelerometer. The naming convention for these variables contains information identifying the accelerometer, the measure of aggregation used (whether mean or standard deviation), and the axis label. The observations recorded and assigned to each variable are normalized between -1 and 1.</p>
-<code><ul><li>tBodyAcc-mean()-X</li>
+The following variables are all measurements that quantify acceleration from an accelerometer. The naming convention for these variables contains information identifying the accelerometer, the measure of aggregation used (whether mean or standard deviation), and the axis label. The observations recorded and assigned to each variable are normalized between -1 and 1.
+<code><ul>
+<li>tBodyAcc-mean()-X</li>
 <li>tBodyAcc-mean()-Y</li>
 <li>tBodyAcc-mean()-Z</li>
 <li>tBodyAcc-std()-X</li>
@@ -95,7 +96,7 @@
 Raw data comes from the following study: <a href="http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones">. A zip file containing the raw data is here: <a href="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip">
 
 <h2>Required non-base R packages:</h2>
-<code><ul>
+<ul><code>
 <li>plyr</li>
 <li>reshape2</li>
-</ul></code>
+</code></ul>
